@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Kech - Marockansk restaurang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <a href="#" class="logo">Le Kech</a>
+
+        <button class="menu-button" type="button">Meny</button>
+
+        <nav class="nav">
+            <a href="#hem">Hem</a>
+            <a href="#meny">Meny</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="hem">
+
+            <div class="hero-content">
+                <h1>Smaker från Marocko</h1>
+
+                <p>Välkommen till Le Kech. Upplev traditionella marockanska smaker och rätter lagade med kärlek.</p>
+
+                <a href="#meny" class="button">Se vår meny</a>
+            </div>
+
+            <img src="images/marockansk-mat.jpg" alt="Marockansk maträtt med färgglada grönsaker och kryddor">
+
+        </section>
+
+
+        <!-- MENY -->
+        <section class="menu-section" id="meny">
+
+            <h2>Vår meny</h2>
+
+            <p>Upptäck våra marockanska favoriter.</p>
+
+
+            <!-- FILTER -->
+            <div class="filters">
+
+                <button class="filter active" type="button" data-filter="all">Allt</button>
+
+                <button class="filter" type="button" data-filter="middag">Middag</button>
+
+                <button class="filter" type="button" data-filter="lunch">Lunch</button>
+
+                <button class="filter" type="button" data-filter="dryck">Dryck</button>
+
+            </div>
+
+
+            <!-- PRODUKTER -->
+            <ul class="products">
+
+                <li class="product" data-category="middag">
+
+                    <img src="images/tajine.jpg" alt="Kycklingtajine med citron och oliver">
+
+                    <article>
+                        <h3>Kycklingtajine</h3>
+
+                        <p>Mör kyckling med citron, oliver och traditionella marockanska kryddor.</p>
+
+                        <span>159 kr</span>
+                    </article>
+
+                </li>
+
+
+                <li class="product" data-category="middag">
+
+                    <img src="images/couscous.jpg" alt="Marockansk couscous med grönsaker">
+
+                    <article>
+                        <h3>Marockansk couscous</h3>
+
+                        <p>Couscous med färska grönsaker, kikärtor och kryddor.</p>
+
+                        <span>149 kr</span>
+                    </article>
+
+                </li>
+
+
+                <li class="product" data-category="lunch">
+
+                    <img src="images/harira.jpg" alt="Marockansk harirasoppa">
+
+                    <article>
+                        <h3>Harira</h3>
+
+                        <p>Traditionell marockansk soppa med linser, tomat och kikärtor.</p>
+
+                        <span>119 kr</span>
+                    </article>
+
+                </li>
+
+
+                <li class="product" data-category="lunch">
+
+                    <img src="images/kefta.jpg" alt="Marockanska köttbullar kefta">
+
+                    <article>
+                        <h3>Kefta</h3>
+
+                        <p>Kryddade marockanska köttbullar serverade med sallad och bröd.</p>
+
+                        <span>139 kr</span>
+                    </article>
+
+                </li>
+
+
+                <li class="product" data-category="middag">
+
+                    <img src="images/vegetarisk-tajine.jpg" alt="Vegetarisk marockansk tajine">
+
+                    <article>
+                        <h3>Vegetarisk tajine</h3>
+
+                        <p>Säsongens grönsaker, kikärtor och marockanska kryddor.</p>
+
+                        <span>139 kr</span>
+                    </article>
+
+                </li>
+
+
+                <li class="product" data-category="dryck">
+
+                    <img src="images/mint-te.jpg" alt="Marockanskt mintte">
+
+                    <article>
+                        <h3>Marockanskt mintte</h3>
+
+                        <p>Traditionellt grönt te med färsk mynta.</p>
+
+                        <span>45 kr</span>
+                    </article>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ÖPPETTIDER OCH ADRESS -->
+        <section class="info" id="kontakt">
+
+            <article class="info-box">
+
+                <h2>Öppettider</h2>
+
+                <p>Måndag - Fredag: 11:00 - 22:00</p>
+                <p>Lördag - Söndag: 12:00 - 23:00</p>
+
+            </article>
+
+
+            <article class="info-box">
+
+                <h2>Hitta hit</h2>
+
+                <p>Hyllie 10</p>
+                <p>211 20 Malmö</p>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>Le Kech - Marockansk restaurang</p>
+
+        <p>Telefon: 040-123 45 67</p>
+
+        <p>E-post: info@lekech.se</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
